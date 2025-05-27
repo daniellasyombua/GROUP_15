@@ -1,0 +1,12 @@
+Scenario: Develop a system for users to track their daily fitness activities. 
+Users should be able to log exercises and view details regarding that exercise. 
+Provide users with the ability to view summaries of their daily and weekly activities.
+
+
+THINKING PROCESS
+Define exercise with date,type and duration 
+Define user object with name,list of exercise log 
+Create function Logexcercise that takes exercise as parameter and adds the exercise to user log 
+Create a function viewdetailSummary that takes user,date as premeter and filters exercise based on date 
+Calculate total duration and listtypes, display results - 
+Create function viewweekSumarry .filter exercise in 7-day range , calculate totals perday , display results
