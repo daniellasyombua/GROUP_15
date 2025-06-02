@@ -16,7 +16,6 @@ def get_weekly_summary():
     weekly = [a for a in activities if a["time"].date() >= week_ago]
     return weekly
 def get_exercise_summary(exercise_name):
-   
     return [a for a in activities if a["name"].lower() == exercise_name.lower()]
 def print_summary(entries, label):
     print(f"\n{label} Summary:")

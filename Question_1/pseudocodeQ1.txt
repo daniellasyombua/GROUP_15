@@ -1,0 +1,28 @@
+ALGORITHM
+
+Input
+List: An exercise list with exercise details.
+String: Username 
+String: Date
+String: Activity Type 
+Integer: Duration
+
+
+Processes
+
+1. Each exercise includes a date, a type, and a duration.
+2. Each user has a name and a record of all their exercises.
+3. To log a new exercise for a user, add the exercise information to the user’s exercise record.
+4. To get a summary for a specific date, find all exercises the user did on that date, total the time spent, list the exercise types, and show these results.
+5. To get a summary for a week, find all exercises within a 7-day period, total the time for each day, and show the results for each day.
+
+
+
+Output
+Two objects:
+1. Containing a daily activities summary.
+2. Containing a weekly activities summary.
+
+
+
+
