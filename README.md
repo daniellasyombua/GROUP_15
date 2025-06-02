@@ -4,5 +4,5 @@ This repository contains three questions done during a live coding session. It c
 
 Question-1 
 Scenario: Develop a system for users to track their daily fitness activities. 
-Users should be able to log exercises and view details regarding that exercise. 
+Users should be able to log exercises and view details regarding those exercise. 
 Provide users with the ability to view summaries of their daily and weekly activities.
