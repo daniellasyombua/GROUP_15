@@ -1,67 +1,28 @@
 ALGORITHM
 
 Input
-List - An exercise list with exercise details.
-String - Username  - the name of the person using the system.
-String - Date - the date when the activity was done.
-String - Activity Type - the kind of physical activity (e.g., "Running", "Yoga").
-Integer - Duration - time spent on the activity in minutes.
+List: An exercise list with exercise details.
+String: Username 
+String: Date
+String: Activity Type 
+Integer: Duration
+
 
 Processes
 
-1. Create a user profile with a name and an empty list to store exercises.
+1. Each exercise includes a date, a type, and a duration.
+2. Each user has a name and a record of all their exercises.
+3. To log a new exercise for a user, add the exercise information to the user’s exercise record.
+4. To get a summary for a specific date, find all exercises the user did on that date, total the time spent, list the exercise types, and show these results.
+5. To get a summary for a week, find all exercises within a 7-day period, total the time for each day, and show the results for each day.
 
-2. Logging Exercise
-For each exercise entry, accept the date, activity type, and duration.
-Store these values as a new record in the user’s exercise log.
-
-3. Viewing Exercises
-Go through the exercise log. For each entry, display the date, activity type, and duration.
-
-4. Daily Summary
-Accept a target date.
-Filter all exercises that match the date. Sum the durations of those exercises. Display the total minutes exercised on that date.
-
-
-5. Weekly Summary
-Group all exercise entries by date.
 
 
 Output
 Two objects:
-Containing a daily activities summary.
-Containing a weekly activities summary.
+1. Containing a daily activities summary.
+2. Containing a weekly activities summary.
 
 
 
-PSEUDOCODE
 
-
-START
-
-FUNCTION createActivityLog(name):
-    user. name =name
-    user. exercises = empty list
-
-FUNCTION logExercise(date, activity, duration):
-    ADD {date, activity, duration} TO user.exercises
-
-FUNCTION viewExercises():
-    FOR each exercise in the user.exercises:
-        PRINT date, activity, duration
-
-FUNCTION dailySummary(date):
-    Total - 0
-    FOR each exercise in the user.exercises:
-        IF exercise.date = date:
-            total = total + exercise.duration
-    PRINT total minutes for a given date
-
-FUNCTION weeklySummary():
-    Summary = empty map
-    FOR each exercise in user.exercises,
-        summary[exercise.date] += exercise.duration
-    FOR each date IN summary,
-        PRINT date, summary[date]
-
-END
