@@ -1,14 +1,9 @@
 Input
- 2 list of objects one for workers and another one for shifts.
+
 
 Process
 
-1. Make a list of all workers, including their names, their job, which work times they prefer, the maximum number of hours they can work, and how much rest they need between shifts.
-2. Make a list of all work periods, including when each one starts and ends, and what types of workers are needed.
-3. Arrange the workers based on their job and when they are available.
-4. For each work period, choose workers by checking if they have the needed skills, if the time suits them, and if the rules about working hours and rest are followed.
-5. Assign workers to each shift making sure there is no gap between one shift ending and the next one starting.
-6. Save the final work plan.
+
 
 Output
-List of objects for scheduled shifts
+
