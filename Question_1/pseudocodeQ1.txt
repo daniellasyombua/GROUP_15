@@ -22,7 +22,3 @@ Output
 Two objects:
 1. Containing a daily activities summary.
 2. Containing a weekly activities summary.
-
-
-
-
