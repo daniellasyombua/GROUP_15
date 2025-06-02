@@ -18,6 +18,6 @@ The challenge is to provide continuous customer support while maintaining employ
 ## Question-3
 Scenario:
 You're developing a social media application where users can follow other users. 
-Show how you will use your knowledge of data structures to store followers for each user
+Show how you will use your knowledge of data structures to store followers for each user.
 
 
